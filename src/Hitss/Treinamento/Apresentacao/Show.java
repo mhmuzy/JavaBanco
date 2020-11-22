@@ -400,7 +400,7 @@ public class Show {
 				/// *** Se digitar um número da conta que não bate
 				System.out.println("");
 				/// *** Pula 1 linha
-				System.out.println("Por favor, selecione a opção desejada.");
+				System.out.println("Nenhum usuário da conta encontrada.");
 				/// *** O Programa informa para selecionar a opção desejada
 				break;
 			}

@@ -356,84 +356,150 @@ try {
 
 			/// *** Conta 5
 			Conta c5 = new Conta();
+			/// *** Instância da Conta 5
 			c5.setNumConta(6);
+			/// *** Setando o Valor no atributo número da conta
 			c5.setTipoConta(TipoConta.Conta_Corrente);
+			/// *** Setando o Valor no valor tipo da conta
 			c5.setDono("Ana Luíza");
+			/// *** Setando o valor no atributo Dono da Conta isto é, o usuário da conta
 			c5.setSaldo(1800.00);
+			/// *** Setando o Valor Saldo da Conta
 			c5.setCpf("123.456.789-06");
+			/// *** Setando o Valor Cpf da Conta
 			c5.setStatus(Status.Cancelada);
+			/// *** Setando o Valor Status da Conta
 			String alerta5 = c5.getSaldo() < 0 ? c5.getSaldo() + " Está no Cheque Especial." : c5.getSaldo() + "";
-			
+			/// *** Declaração da variável que vai validar se a conta do usuário está ou não em cheque especial
 			if (c1.getCpf().equals(cpf)) {
+				/// *** Se o Cpf da Conta for igual ao parametro Cpf
 				System.out.println("");
+				/// *** Pula 1 linha para o resultado da consulta não ficar muito bagunçado
 				System.out.println("                Resultado da Consulta");
+				/// *** Título Resultado da Consulta
 				System.out.println("---------------------------------------------------------");
+				/// *** Conceito de Perfumaria
 				System.out.println("Conta: " + c1.getNumConta());   
+				/// *** Mostra Número da Conta
 				System.out.println("Nome: " + c1.getDono());
+				/// *** Mostra Usuário da Conta
 				System.out.println("Tipo de Conta: " + c1.getTipoConta());
+				/// *** Mostrar Tipo da Conta
 				System.out.println("Saldo: " + alerta1);
+				/// *** Mostrar o Saldo da Conta
 				System.out.println("Cpf: " + c1.getCpf());
+				/// *** Mostrar o Cpf 
 				System.out.println("Status: " + c1.getStatus());
+				/// *** Mostrar o Status
 				System.out.println("---------------------------------------------------------");
-	
+				/// *** Conceito de Perfumaria
 			}else if (c2.getCpf().equals(cpf)) {
+				/// *** Se o Atributo Cpf for igual ao parâmetri Cpf
 				System.out.println("");
+				/// *** Pula 1 linha
 				System.out.println("                Resultado da Consulta");
+				/// *** Enunciado do Resultado
 				System.out.println("---------------------------------------------------------");
-				System.out.println("Conta: " + c2.getNumConta());   
+				/// *** Conceito de Perfumaria
+				System.out.println("Conta: " + c2.getNumConta());
+				/// *** Mostra Número da Conta
 				System.out.println("Nome: " + c2.getDono());
+				/// *** Mostrar Usuário da Conta
 				System.out.println("Tipo de Conta: " + c2.getTipoConta());
+				/// *** Mostrar Tipo de Conta
 				System.out.println("Saldo: " + alerta2);
+				/// *** Mostrar o Saldo da Conta
 				System.out.println("Cpf: " + c2.getCpf());
+				/// *** Mostrar o Cpf da Conta
 				System.out.println("Status: " + c2.getStatus());
+				/// *** Mostrar o Saldo da Conta
 				System.out.println("---------------------------------------------------------");
-		
+				/// *** Conceito de Perfumaria
 			}else if (c3.getCpf().equals(cpf)) {
+				/// *** Se o Atributo Cpf for Igual ao Parâmetro Cpf
 				System.out.println("");
+				/// *** Pula 1 linha
 				System.out.println("                Resultado da Consulta");
+				/// *** Enunciado Resultado da Consulta
 				System.out.println("---------------------------------------------------------");
-				System.out.println("Conta: " + c3.getNumConta());   
+				/// *** Conceito de Perfumaria
+				System.out.println("Conta: " + c3.getNumConta());
+				/// *** Mostrar Número da Conta
 				System.out.println("Nome: " + c3.getDono());
+				/// *** Mostrar Usuário da Conta
 				System.out.println("Tipo de Conta: " + c3.getTipoConta());
+				/// *** Mostrar o Tipo da Conta
 				System.out.println("Saldo: " + alerta3);
+				/// *** Mostrar o Saldo da Conta
 				System.out.println("Cpf: " + c3.getCpf());
+				/// *** Mostrar o Cpf do Usuário da Conta
 				System.out.println("Status: " + c3.getStatus());
+				/// *** Mostrar o Status da Conta
 				System.out.println("---------------------------------------------------------");
-		
+				/// *** Conceito de Perfumaria
 			}else if (c4.getCpf().equals(cpf)) {
+				/// *** Se o Atributo Cpf for igual ao Parâmetro Cpf
 				System.out.println("");
+				/// *** Pula 1 Linha
 				System.out.println("                Resultado da Consulta");
+				/// *** Enunciado Resultado da Consulta
 				System.out.println("---------------------------------------------------------");
+				/// *** Conceito de Perfumaria
 				System.out.println("Conta: " + c4.getNumConta());   
+				/// *** Atributo Número da Conta
 				System.out.println("Nome: " + c4.getDono());
+				/// *** Atributo Usuário da Conta
 				System.out.println("Tipo de Conta: " + c4.getTipoConta());
+				/// *** Mostrar Tipo da Conta
 				System.out.println("Saldo: " + alerta4);
+				/// *** Mostrar Saldo da Conta 
 				System.out.println("Cpf: " + c4.getCpf());
+				/// *** Mostrar Cpf
 				System.out.println("Status: " + c4.getStatus());
+				/// *** Mostrar Status da Conta
 				System.out.println("---------------------------------------------------------");
-		
+				/// *** Conceito de Perfumaria
 			}else if (c5.getCpf().equals(cpf)) {
+				/// *** Se o Atributo Cpf for igual ao Parametro Cpf
 				System.out.println("");
+				/// *** Pula 1 linha
 				System.out.println("                Resultado da Consulta");
+				/// *** Enunciado Resultado da Consulta
 				System.out.println("---------------------------------------------------------");
-				System.out.println("Conta: " + c5.getNumConta());   
+				/// *** Conceito de Perfumaria
+				System.out.println("Conta: " + c5.getNumConta());
+				/// *** Mostrar Número da Conta
 				System.out.println("Nome: " + c5.getDono());
+				/// *** Mostrar Usuário da Conta
 				System.out.println("Tipo de Conta: " + c5.getTipoConta());
+				/// *** Mostrar Tipo da Conta
 				System.out.println("Saldo: " + alerta5);
+				/// *** Mostrar Saldo da Conta
 				System.out.println("Cpf: " + c5.getCpf());
+				/// *** Mostra Cpf do Usuário da Conta
 				System.out.println("Status: " + c5.getStatus());
+				/// *** Mostrar Status da Conta
 				System.out.println("---------------------------------------------------------");
-		
+				/// *** Conceito de Perfumaria
 			}else {
+				/// *** Se não for encontrado nenhum resultado do Usuário
 				System.out.println("");
+				/// *** Pular 1 linha
 				System.out.println("                Resultado da Consulta");
+				/// *** Enunciado Resultado da Consulta
 				System.out.println("---------------------------------------------------------");
+				/// *** Conceito de Perfumaria
 				System.out.println("Nenhuma Conta Encontrada.");
+				/// *** O Resultado de que não foi encontrado nenhum resultado
 				System.out.println("---------------------------------------------------------");
+				/// *** Conceito de Perfumaria
 			}
 		} catch (Exception e) {
+			/// *** Captura do Erro
 			System.out.println("");
+			/// *** Pula 1 linha
 			System.out.println("Erro de processamento:" + e.getMessage());
+			/// *** Mensagem de erro
 		}
 	}
 }
